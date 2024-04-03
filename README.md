@@ -1,0 +1,1 @@
+# NodeJS Discord bot boilerplate

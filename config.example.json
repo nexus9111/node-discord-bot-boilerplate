@@ -1,0 +1,6 @@
+{
+  "token": "TOKEN", // your discord token
+  "clientId": "APPLICATION_ID", // your application id
+  "guildId": "SERVER_ID", // your server id,
+  "mainChanId": "CHANNEL_ID" // your main channel id
+}
