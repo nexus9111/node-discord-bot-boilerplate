@@ -32,6 +32,8 @@ module.exports = {
 };
 ```
 
+3. Rebuid the Docker container with `docker-compose up -d --build`
+
 | You can find example of commands in the `commands\utility` directory.
 
 ## License
