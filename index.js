@@ -10,8 +10,6 @@ client.commands = new Collection();
 const foldersPath = path.join(__dirname, "commands");
 const commandFolders = fs.readdirSync(foldersPath);
 
-console.log(commandFolders);
-
 for (const folder of commandFolders) {
   const commandsPath = path.join(foldersPath, folder);
   const commandFiles = fs
@@ -56,10 +54,6 @@ client.on(Events.InteractionCreate, async (interaction) => {
       });
     }
   }
-});
-
-client.once(Events.ClientReady, (readyClient) => {
-  console.log(`Ready! Logged in as ${readyClient.user.tag}`);
 });
 
 client.on("ready", () => {
